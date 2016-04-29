@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Preview</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="mainContainer">
+    <div class="titleContainer">
+      <div class="leftTitleContainer">
+        <img src="weatherpics/header_noaa.png" />
+        <img src="weatherpics/header_nws.png" />
+      </div>
+      <img src="weatherpics/header_doc.png" />
+     </div>
+    <div class="navBarContainer">
+        <ul>
+          <li>HOME</li>
+          <li>FORECAST&#9660;</li>
+          <li>PAST WEATHER&#9660;</li>
+          <li>SAFETY&#9660;</li>
+          <li>INFORMATION&#9660;</li>
+          <li>EDUCATION&#9660;</li>
+          <li>NEWS&#9660;</li>
+          <li>SEARCH&#9660;</li>
+          <li>ABOUT&#9660;</li>
+        </ul>
+    </div>
+    <div class="mainBodyContainer">
+        <div class="mainUpperBodyContainer">
+          <div class="mainLowerBodyContainer">
+            <div class="searchContainer">
+              <input type="text" size="20" / >
+              <button>Go</button>
+            </div>
+            <p class="blueUnderline">View Location Examples</p>
+            <h5>Your local forecast office is</h5>
+            <p id="location" class="blueUnderline">Seattle, WA</p>
+          </div>
+          <div class="textContainer">
+            <h3>Rain, thunderstorms developing from southern Plains to mid-Atlantic</h3>
+            <p id="mainText">A slow-moving storm system will be the focus for rain and thunderstorms from the southern Plains across to the Southeast and Mid-<br>Atlantic States early this week.  Locally heavy rainfall could lead to isolated flash flooding, especially in the mid-Mississippi River Valley on <br>Tuesday.  Isolated severe thunderstorms will be possible Tuesday near the Gulf Coast associated with this same storm system.</p>
+            <p id="readMore" class="blueUnderline">Read More...</p>
+          </div>
+        </div>
+        <div class = "socialMediaContainer">
+          <p id="spanish" class="blueUnderline">En Espa&ntilde;ol</p>
+          <p class="blueUnderline"><img src="weatherpics/more.png" height="24" width="24" /> Share | <img src="weatherpics/social-media-buttons.png" width="145" height="24"/></p>
+        </div>
+      <div class="midBodyContainer">
+        <div class="currentConditionsContainer">
+          <p><b>Current conditions at</b></p>
+          <p class="blue">Seattle, Seattle Boeing Field (KBFI)</p>
+          <p><b>Lat:</b> 47.57&deg;N <b>Lon:</b> -122.41&deg;W <b>Elev:</b> 16ft.</p>
+        </div>
+        <div class="realCurrentConditionsContainer">
+          <div class="bigTempContainer">
+            <div class=lilTempContainer>
+              <img id="weatherPic" src="weatherpics/a-few-clouds.png" width="100px" height="100px"/>
+              <div class="temp">
+                <p>A Few Clouds</p>
+                <p id="fortyfive">45&deg;F</p>
+                <p id="seven">7&deg;C</p>
+              </div>
+            </div>
+            <div class="fancyTemp">
+              <p><b>Humidity</b> 90%</p>
+              <p><b>Wind Speed</b> SSE 8 MPH</p>
+              <p><b>Barometer</b> 30.34 in (1027.4 mb)</p>
+              <p><b>Dewpoint</b> 42&deg;F(6&deg;C)</p>
+              <p><b>Visibility</b> 10.00 mi</p>
+              <p><b>Wind Chill</b> 41&deg;F(5&deg;C)</p>
+              <p><b>Last update</b> 21 Feb 9:53 pm PST</p>
+            </div>
+          </div>
+          <div class="moreInfoTemp">
+            <h6>More Information</h6>
+            <p class="blueUnderline">Local Forecast Office</p>
+            <p class="blueUnderline">More Local Wx</p>
+            <p class="blueUnderline">3 Day History</p>
+            <p class="blueUnderline">Mobile Weather</p>
+            <p class="blueUnderline">Hourly Weather Forecast</p>
+          </div>
+        </div>
+      </div>
+      <div class="lowerBodyContainer">
+        <div class="extendedForecast">
+          <h4>Extended Forecast for</h4>
+          <p class="blue">2 Miles NW West Seattle WA</p>
+        </div>
+        <div class="dailyWeather">
+          <div class="days">
+            <div><h4>Tonight</h4></div>
+            <div><h4>Monday</h4></div>
+            <div><h4>Monday <br> Night</h4></div>
+            <div><h4>Tuesday</h4></div>
+            <div><h4>Tuesday <br> Night</h4></div>
+            <div><h4>Wednesday</h4></div>
+            <div><h4>Wednesday <br> Night</h4></div>
+            <div><h4>Thursday</h4></div>
+            <div><h4>Thursday <br> Night</h4></div>
+          </div>
+          <div class="weatherImg">
+            <div><img src="weatherpics/nshra60.png" / ></div>
+            <div><img src="weatherpics/DualImage.png" / ></div>
+            <div><img src="weatherpics/nsct.png" / ></div>
+            <div><img src="weatherpics/few.png" / ></div>
+            <div><img src="weatherpics/nsct.png" / ></div>
+            <div><img src="weatherpics/bkn.png" / ></div>
+            <div><img src="weatherpics/nbkn.png" / ></div>
+            <div><img src="weatherpics/sct.png" / ></div>
+            <div><img src="weatherpics/nsct.png" / ></div>
+          </div>
+          <div class="weatherDescription">
+            <p>Showers <br> Likely</p>
+            <p>Showers <br> Likely then <br> Chance <br> Showers</p>
+            <p>Partly Cloudy</p>
+            <p>Sunny</p>
+            <p>Partly Cloudy</p>
+            <p>Partly Sunny</p>
+            <p>Mostly Cloudy</p>
+            <p>Mostly Sunny</p>
+            <p>Partly Cloudy</p>
+          </div>
+          <div class="temperature">
+            <p class="lowBlue">Low: 40 &deg;F</p>
+            <p class="highRed">High: 50 &deg;F</p>
+            <p class="lowBlue">Low: 37 &deg;F</p>
+            <p class="highRed">High: 52 &deg;F</p>
+            <p class="lowBlue">Low: 41 &deg;F</p>
+            <p class="highRed">High: 54 &deg;F</p>
+            <p class="lowBlue">Low: 43 &deg;F</p>
+            <p class="highRed">High: 56 &deg;F</p>
+            <p class="lowBlue">Low: 45 &deg;F</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
