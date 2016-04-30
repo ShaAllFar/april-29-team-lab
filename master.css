@@ -1,0 +1,29 @@
+body{
+
+}
+.GeneratedText {
+  align-items: center;
+  text-align: center;
+  font-family:'Brush Script MT';
+  font-size:5em;
+  font-weight:bold;letter-spacing:0.2em;
+  line-height:1.3em;
+  color:#330099;
+  background-color:#CCFFFF;
+  padding:1.5em;
+  width: calc(100%-3em);
+}
+
+#calculator{
+  display: flex;
+  justify-content: space-around;
+}
+
+ul{
+  width: 30%;
+}
+
+li{
+  font-family: cursive;
+  font-size: 2.5em;
+}
