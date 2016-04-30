@@ -69,17 +69,23 @@ function conversion(number,type1,type2){
   }else if (type1 === 'mt' && type2 === 'kg') {
     return(number / 0.001);
   }else {
-    return('That is not a valid conversion');
+    return(false);
   }
 }
 
 doIt.addEventListener('submit', calculate);
-
+// function isANumber() {
+//
+// }
 function calculate(event){
   event.preventDefault();
   var box = parseFloat(event.target.box.value);
   var selectValue = measurement.options[measurement.selectedIndex].value;
   var selectValue2 = measurement2.options[measurement2.selectedIndex].value;
+  if (isNaN(box)) {
+    alert('Please put a number in the box!!!');
+    return;
+  }
   console.log(box + selectValue + selectValue2);
   // var box2 = parseFloat(event.target.box2.value);
   var converted = conversion(box, selectValue, selectValue2);
